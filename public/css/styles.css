@@ -15,7 +15,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    
+    margin-bottom: 20px;
 }
 
 header img {
@@ -72,6 +72,7 @@ footer {
       justify-content: space-evenly;
       align-items: center;
     background: #C21856;
+    margin-top: 20px;
   }
   .contatos{
     grid-area: contatos;
@@ -84,7 +85,8 @@ footer {
   .institucional{
     grid-area: institucional;
   }
-  
+
+   
   footer img{
     width: 250px;
   }
@@ -103,3 +105,12 @@ footer {
     text-decoration: none;
   }
   
+  main{
+    display: flex;
+        column-gap: 10px;
+    margin: 20px 0;
+  }
+
+  main section{
+    width: 50%;
+  }

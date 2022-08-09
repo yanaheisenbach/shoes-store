@@ -24,7 +24,78 @@
 
    <main class="container">
         <section>
-            lalaluuu
+            <h2>Faça parte do nosso time</h2>
+            <form action="" method="get">
+                <label for="Nome">
+                    <span>Nome</span>
+                    <input type="text" name="nome" placeholder="Digite o seu nome completo">
+                </label>
+                <label>
+                    <span>E-mail</span>
+                    <input type="email" name="email" placeholder="Digite um e-mail válido">
+                </label>
+               
+                <input type="hidden" name="visitouaPagina" value="1">
+
+                <label>
+                    <span>Telefone</span>
+                    <input type="tel" name="telefone" id="telefone ">
+                </label>
+
+                <label>
+                    <span>Departamento</span>
+                    <select name="departamento" id="departamento">
+                        <option selected disabled>Selecione um departamento</option>
+                        <option value="prog">Programação</option>
+                        <option value="vend">Vendas</option>
+                        <option value="mark">Marketing</option>
+
+                    </select>
+                </label>
+
+                <div>
+                    <h3>Disponibilidade</h3>
+                    <label>
+                        <input type="checkbox" name="disp_integral">
+                        <span>Integral (8h)</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="disp_meioperiodo">
+                        <span>Meio Período (4h)</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="freelancer">
+                        <span>Freelancer (burro de carga)</span>
+                    </label>
+                </div>
+
+                <div>
+                    <h3>Forma preferencial de contato</h3>
+                    <label>
+                        <span>Whats App</span>
+                        <input type="radio" value="whatsapp" name="formaDeContato">
+                    </label>
+                    <label>
+                        <input type="radio" value="telefone" name="formaDeContato">
+                        <span>Telefone</span>
+                    </label>
+                    <label>
+                        <input type="radio" value="email" name="formaDeContato">
+                        <span>E-mail</span>
+                    </label>
+                    <label>
+                        <input type="file" name="arquivoCurriculo" id="">
+                        <span>Arquivo PDF com seu currículo</span>
+                    </label>
+                </div>
+
+               
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+            
         </section>
 
         <section>
